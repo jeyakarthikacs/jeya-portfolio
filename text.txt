@@ -1,0 +1,221 @@
+========== HEADER ==========
+.logo
+Jeyakarthika
+
+.nav-link
+Home
+Services
+Skills
+Works
+Resume
+Testimonials
+Contact
+
+.social-link
+https://www.instagram.com/jeyakarthika_cs?igsh=bHkxaXE0bjIzYmI0
+t.me/Jeyakarthikaa
+https://github.com/jeyakarthikacs
+https://www.linkedin.com/in/jeyakarthikacs
+
+========== HOME ==========
+.home-subtitle
+Hello, My Name is
+
+.home-title
+Jeyakarthika
+
+.home-job
+Software Engineer & Flutter Developer
+
+.home-data-no | .home-data-title
+4+
+Years of Experience
+
+15+
+Completed Projects
+
+.home-description
+I am from India. I have rich experience in web design and am skilled in WordPress and Flutter. I love discussing what makes people unique.
+
+.button
+Download CV
+My Skills
+
+========== SERVICES ==========
+.section-title
+What I Do
+
+.section-subtitle
+My Services
+
+.services-subtitle | .services-title | .services-description
+Web Development
+Web Design & Flutter Apps
+Developing modern and user-friendly websites and applications using Flutter, ensuring smooth and interactive UI/UX experiences.
+
+Machine Learning
+AI & Data Science
+Building intelligent models, including recommendation systems, sentiment analysis, and predictive analytics using ML techniques.
+
+IoT Development
+Embedded Systems
+Creating smart solutions using ESP8266, Raspberry Pi, and Arduino for real-time monitoring and automation.
+
+Portfolio & Branding
+Custom Design
+Designing personal and business branding websites, portfolios, and custom UI elements.
+
+========== SKILLS ==========
+.section-title
+Professional Skills
+
+.section-subtitle
+My Talent
+
+.skills-description
+Passionate about building user-friendly applications and solving real-world problems with technology.
+
+.skills-name | .skills-value
+Flutter
+85%
+
+Python
+80%
+
+WordPress
+90%
+
+Machine Learning
+75%
+
+JavaScript
+70%
+
+React
+65%
+
+========== WORK ==========
+.section-title
+Portfolio
+
+.section-subtitle
+My Projects
+
+.work-item
+All
+AI & ML
+Development
+IoT
+
+.work-description
+A showcase of my best projects spanning AI, ML, Web, and IoT development.
+
+.work-category | .work-title
+AI & ML
+Music Recommendation System
+
+Development
+Canteen Ordering Website
+
+IoT
+Vehicle Seat Occupancy & Tracking
+
+Development
+Smart Parking System
+
+AI & ML
+Movie Recommendation System
+
+IoT
+NPK Soil Tester
+
+========== RESUME ==========
+.section-title
+Resume
+
+.section-subtitle
+My Story
+
+.resume-title
+Education
+
+.resume-header-title | .resume-content-title | .resume-date
+KLN College of Engineering
+B.Tech in Computer Science & Engineering
+2021 - 2025
+
+.resume-title
+Experience
+
+.resume-header-title | .resume-content-title | .resume-date
+Software Engineer Intern
+EdTech Company (Flutter Developer)
+2024 - Present
+
+Research & Innovation Member
+KLN Innovation & Research Park
+2023 - Present
+
+Hackathon Organizer
+Hackathon 2K24 - Event Lead
+2024
+
+Freelance Developer
+Web & App Development
+2022 - Present
+
+========== TESTIMONIALS ==========
+.section-title
+Testimonials
+
+.section-subtitle
+What Others Say
+
+.services-subtitle | .services-title | .services-description
+Bhavani
+"Jeyakarthika is always eager to learn and adapt to new challenges!"
+
+Balaji
+"A great problem solver and a strong team player!"
+
+Harini
+"Her work in Flutter development is impressive and efficient!"
+
+========== CONTACT ==========
+.section-title
+Contact Me
+
+.section-subtitle
+Let's Connect
+
+.contact-title | .contact-data
+Address
+Tamil Nadu, India
+
+Freelance
+Available for Collaboration
+
+Email
+jeyakarthikacs@gmail.com
+
+Phone
++91 XXXXXXXXXX
+
+.contact-form-tag
+Your Full Name *
+Your Email Address
+Your Subject
+Your Message
+
+.contact-submit span
+
+Accept the terms and conditions.
+========== FOOTER ==========
+.footer-copyright
+© 2024 <span>Jeyakarthika</span>. All Rights Reserved.
+Developed by <span>Jeyakarthika</span>.
+
+EMAIL JS
+Write all the input fields
+Message sent ✔
+OOPs! SOMETHING WENT WRONG...
