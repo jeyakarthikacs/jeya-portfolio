@@ -33,8 +33,16 @@ const styleSwitcher = document.getElementsById('style-switcher'),
     switcherClose = document.getElementById('switcher-close');
 
 /* Switcher show */
+switcherToggle.addEventListener('click', () => {
+    styleSwitcher.classList.toggle('show-switcher');
+});
+
 
 /* Switcher hidden */
+switcherClose.addEventListener('click', () => {
+    styleSwitcher.classList.remove('show-switcher');
+});
+
 
 /*=============== THEME COLORS ===============*/
 
