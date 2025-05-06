@@ -689,7 +689,39 @@ textarea {
 }
 
 /*=============== RESUME ===============*/
+.resume-container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+}
 
+.resume-title {
+    font-size: var(--h3-font-size);
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.resume-title,
+.resume-item {
+    border-bottom: 2px solid var(--border-color);
+}
+
+.resume-item:not(:first-child) {
+    border-right: 2px solid var(--border-color);
+}
+
+.resume-item {
+    position: relative;
+    padding-inline: 1.5rem;
+}
+
+.resume-header{
+    padding-block: 1.5rem;
+    cursor: pointer;
+}
+
+.resume-header-title {
+    font-size: var(--larger-font-size);
+}
 /*=============== TESTIMONIALS ===============*/
 
 /*=============== CONTACT ===============*/
