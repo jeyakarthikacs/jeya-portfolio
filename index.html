@@ -107,6 +107,10 @@
                         <a href="#" class="home-link">My Skills</a>
                     </div>
                 </div>
+
+                <div class="section-deco deco-left">
+                    <img src="assets/img/shape-1.png" alt="" class="shape">
+                </div>
             </div>
          </section>
 
@@ -159,6 +163,10 @@
                     </div>
 
                     <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="section-deco deco-right">
+                    <img src="assets/img/shape-1.png" alt="" class="shape">
                 </div>
             </div>
         </section>
@@ -238,6 +246,10 @@
                     <div class="skills-bar">
                         <span class="skills-percentage" style="width: 60%";></span>
                     </div>
+                </div>
+
+                <div class="section-deco deco-left">
+                    <img src="assets/img/shape-1.png" alt="" class="shape">
                 </div>
             </div>
         </section>
@@ -340,7 +352,9 @@
                     </div>
                 </div>
 
-
+                <div class="section-deco deco-right">
+                    <img src="assets/img/shape-1.png" alt="" class="shape">
+                </div>
             </div>
         </section>
         <!---- RESUME ---->
@@ -467,6 +481,10 @@
 
             </div>
         </div>
+
+        <div class="section-deco deco-left">
+                    <img src="assets/img/shape-1.png" alt="" class="shape">
+                </div>
         </section>
 
         <!---- TESTIMONIALS ---->
@@ -518,62 +536,83 @@
                     </div>
                 </div>
 
-                <form action="" class="contact-form grid">
+                <form action="" class="contact-form grid" id="contact-form">
                     <div class="contact-form-group grid">
                         <div class="contact-form-div">
                             <label for="" class="contact-form-label">Your full Name <b>*</b></label>
                             <input 
                             type="text" 
+                            name="name"
                             class="contact-form-input"
                             id="contact-name"
                             />
                         </div>
 
                         <div class="contact-form-div">
-                            <label for="" class="contact-form-label">Your full Name <b>*</b></label>
-                            <input 
-                            type="text" 
-                            class="contact-form-input"
-                            id="contact-name"
-                            />
-                        </div>
-
-                        <div class="contact-form-div">
-                            <label for="" class="contact-form-label">Your full Name <b>*</b></label>
-                            <input 
-                            type="text" 
-                            class="contact-form-input"
-                            id="contact-name"
-                            />
-                        </div>
-
-                        <div class="contact-form-div">
-                            <label for="" class="contact-form-label">Your full Name <b>*</b></label>
-                            <input 
-                            type="text" 
-                            class="contact-form-input"
-                            id="contact-name"
-                            />
-                        </div>
-
-                        <div class="contact-form-div">
-                            <label for="" class="contact-form-label">Your Email Address<b>*</b></label>
+                            <label for="" class="contact-form-label">Your Email Address <b>*</b></label>
                             <input 
                             type="email" 
+                            name="email"
                             class="contact-form-input"
                             id="contact-email"
                             />
                         </div>
                     </div>
 
-                    <button type="submit" class="btn">Send Message</button>
+                    <div class="contact-form-div">
+                            <label for="" class="contact-form-label">Your Subject <b>*</b></label>
+                            <input 
+                            type="text"
+                            name="subject" 
+                            class="contact-form-input"
+                            id="contact-subject"
+                            />
+                    </div>
+
+                    <div class="contact-form-div">
+                            <label for="" class="contact-form-label">Your Message <b>*</b></label>
+                            <textarea 
+                                name="message"
+                                class="contact-form-input contact-form-area"
+                                id="contact-message"
+                            ></textarea>
+                    </div>
+
+                    <div class="contact-submit">
+                            <span>* Accept the terms and conditions.</span>
+                            <button type="submit" class="btn">Send Message</button>
+                    </div>
+
+                    <p class="message" id="message"></p>
+                </form>
+
+                <div class="section-deco deco-left">
+                    <img src="assets/img/shape-1.png" alt="" class="shape">
+                </div>
             </div>
         </section>
-
-
     </main>
 
     <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-socials social-links">
+                <a href="https://www.linkedin.com/in/jeyakarthikacs" target="_blank" class="social-link">
+                    <i class="ri-linkedin-box-fill"></i>
+                </a>
+                <a href="https://github.com/jeyakarthikacs" target="_blank" class="social-link">
+                    <i class="ri-github-fill"></i>
+                </a>
+                <a href="mailto:jeyakarthikacs@gmail.com" target="_blank" class="social-link">
+                    <i class="ri-mail-open-line"></i>
+                </a>
+            </div>
+
+            <p class="footer-copyright">© 2024 <span>Jeyakarthika</span>. All Rights Reserved.</p>
+
+            <p class="footer-copyright">Developed by <span>Jeyakarthika</span></p>
+        </div>
+    </footer>
 
     <!-- STYLE SWITCHER -->
      <div class="style-switcher" id ="style-switcher">
@@ -649,6 +688,10 @@
     <script src="assets/js/mixitup.min.js"></script>
 
     <!-- EMAIL JS -->
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
     
     <!-- JS -->
     <script src="assets/js/main.js"></script>
