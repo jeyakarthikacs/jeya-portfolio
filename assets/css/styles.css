@@ -64,6 +64,12 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--hue), 20%, 65%) hsl(var(--hue), 20%, 85%);
+}
+
 body,
 button,
 input,
@@ -142,6 +148,7 @@ textarea {
     padding: 1rem 2.5rem;
     border-radius: 3rem;
     transition: color 0.7s var(--transition);
+    z-index: 1;
 }
 
 .btn:hover {
@@ -205,6 +212,7 @@ textarea {
     width: 2px;
     height: 100%;
     background-color: var(--border-color);
+    z-index: 1;
 }
 
 .deco-left {
@@ -217,10 +225,56 @@ textarea {
 
 
 .section-deco::before,
-.section-deco::right {
+.section-deco::after {
     content: '';
     position: absolute;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--container-color);
+    border: 2px solid var(--border-color);
+    box-shadow: 4px 4px var(--shadow-color);
+}
 
+.section-deco::before {
+    top: 0;
+    transform: translate(-50%, -100%);
+}
+
+.section-deco::after {
+    bottom: 0;
+    transform: translate(-50%, 100%);
+}
+
+.section-deco .shape {
+    max-width: 226px;
+    height: 226px;
+    bottom: -260px;
+}
+
+.deco-left .shape {
+    left: -166px;
+}
+
+.deco-right .shape {
+    right: -166;
+}
+
+.section:nth-child(odd) {
+    background: linear-gradient(
+        0deg,
+        var(--container-color) 0%,
+        var(--body-color) 100%
+    );
+}
+
+.section:nth-child(even) {
+    background: linear-gradient(
+        180deg,
+        var(--container-color) 0%,
+        var(--body-color) 100%
+    );
 }
 /*========== LAYOUT ===========*/
 .container {
@@ -316,6 +370,7 @@ textarea {
     height: 100%;
     padding: 9rem 0 0 9.5rem;
     transition: right 1s var(--transition);
+    overflow: hidden;
 }I
 
 .nav-list {
@@ -335,6 +390,17 @@ textarea {
     color: var(--first-color);
 }
 
+.header-deco {
+    height: 70%;
+    top: 128px; 
+    left: 75px;
+}
+
+.header-deco .shape {
+    top: -210px;
+    left: -168px;
+}
+
 /* Show menu */
 .show-menu {
     right: 0;
@@ -351,9 +417,19 @@ textarea {
 }
 
 /* Active link */
+.active-link {
+    color: var(--first-color);
+}
+
 /* Change background header */
+.bg-header {
+    background-color: var(--container-color);
+}
 
 /*========== MAIN ===========*/
+.main {
+    overflow: hidden;
+}
 
 /*========== HOME ===========*/
 
