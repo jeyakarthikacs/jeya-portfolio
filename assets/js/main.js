@@ -40,19 +40,20 @@ const scrollActive = () => {
 
     sections.forEach((current) => {
         const sectionHeight = current.offsetHeight,
-        sectionTop = current.offsetTop,
+        sectionTop = current.offsetTop  - window.innerHeight * 0.4, //adjust the offset to your liking
         sectionId = current.getAttribute('id'),
         sectionsClass = document.querySelector('.nav-menu a[href*=' + sectionId + ']')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             sectionsClass.classList.add('active-link');
+            history.replaceState(null, null, '#' + sectionId); //Update URL # while scrolling the sections
         } else {
-            sectionsClass.classList.remove('ative-link');
+            sectionsClass.classList.remove('active-link');
         }
     });
 };
 
-window.addEventListener('load', scrollActivate);
+window.addEventListener('scroll', scrollActive);
 
 /*=============== SERVICES SWIPER ===============*/
 var servicesSwiper = new Swiper('.services-swiper',{
