@@ -231,7 +231,7 @@ textarea {
 }
 
 .deco-right {
-    right: -72px;;
+    right: -72px;
 }
 
 
@@ -269,7 +269,7 @@ textarea {
 }
 
 .deco-right .shape {
-    right: -166;
+    right: -166px;
 }
 
 .section:nth-child(odd) {
@@ -382,7 +382,7 @@ textarea {
     padding: 9rem 0 0 9.5rem;
     transition: right 1s var(--transition);
     overflow: hidden;
-}I
+}
 
 .nav-list {
     margin-bottom: 2.5rem;
@@ -620,7 +620,7 @@ textarea {
     bottom: -1.5rem;
     width: 120px;
     height: 120px;
-    background-image: url(../img//shape-3.png);
+    background-image: url(../img/shape-3.png);
     background-size: cover;
 }
 
@@ -1000,6 +1000,9 @@ textarea {
     border-top: 1px solid var(--shadow-color);
     background-color: var(--container-color);
     padding-block: 2rem;
+    /* padding-block: 0.25rem !important;
+    height: 5%;
+    overflow: hidden; */
 }
 
 .footer-container {
